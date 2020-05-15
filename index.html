@@ -7,7 +7,7 @@
         var patch
         $.get('patches/myPatch.pd', function(patchStr) {
           patch = Pd.loadPatch(patchStr)
-          Pd.start()
+          Pd.startOnClick()
         })
     </script>
   </head>
